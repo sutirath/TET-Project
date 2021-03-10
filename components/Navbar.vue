@@ -10,16 +10,14 @@
       aria-label="Toggle navigation"
     >
       <span class="navbar-toggler-icon"></span>
-      <div class="close-icon py-1">✖</div>
     </button>
-    <a href="/" class="navbar-brand animate__animated animate__bounce">TET</a>
+    <a href="/" class="navbar-brand animate__animated animate__bounce"
+      ><img src="@/static/icon.png" height="65" alt="" srcset=""
+    /></a>
     <div class="collapse navbar-collapse" id="navbarToggler">
-      <dir class="navbar-nav mr-auto">
-        <h4>
-          TAKECO ENGINEERING <br />
-          <p>THAILAND CO.,LTD.</p>
-        </h4>
-        <br />
+      <dir class="navbar-nav mr-auto  name-logo">
+        <h4>TAKECO ENGINEERING</h4>
+        <p>THAILAND CO.,LTD.</p>
       </dir>
 
       <dir class="ml-auto">
@@ -48,8 +46,16 @@
         <!-- <b-button v-b-toggle.sidebar-right
           ><i class="fas fa-bars fa-2x"></i
         ></b-button> -->
-        <b-sidebar id="sidebar-right" title="Menu" right backdrop shadow>
+        <b-sidebar id="sidebar-right" right backdrop shadow>
+          <template #footer="{ hide }">
+            <div class="d-flex bg-dark text-light align-items-center px-3 py-2">
+              <strong class="mr-auto">Footer</strong>
+              <b-button size="sm" @click="hide">Close</b-button>
+            </div>
+          </template>
           <div class="px-3 py-2">
+            <center><h4 id="sidebar-no-header-title">Menu</h4></center>
+
             <p>
               Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
               dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta
@@ -99,15 +105,8 @@ export default {
 </script>
 
 <style>
-.navbar-toggler.collapsed .close-icon {
-  display: none;
-}
-
-.navbar-toggler:not(.collapsed) .navbar-toggler-icon {
-  display: inline;
-}
 .navbae-scrolled {
-  transition: 0.6s ease all;
+  transition: 1s ease all;
   transition-delay: 10ms;
   background: rgb(87, 87, 87);
   animation: fadeInDown 0.4s;
@@ -181,5 +180,17 @@ export default {
 .btn-circle:hover {
   color: white;
   cursor: pointer;
+}
+
+.name-logo {
+  display: grid;
+  line-height: 3px;
+}
+.name-logo p {
+  font-size: 22px;
+}
+
+.navbar-brand{
+  margin-left: 100px;
 }
 </style>

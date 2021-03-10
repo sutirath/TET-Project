@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="bg"></div>
+    <Section1 />
     <div>
       <h1 class="animate__animated animate__bounce">An animated element</h1>
       <br /><br /><br /><br /><br /><br /><br /><br /><br />
@@ -13,15 +13,12 @@
 </template>
 
 <script>
-export default {}
+import Section1 from '../components/index/section1'
+export default {
+  name: 'index',
+  components: {
+    Section1,
+  },
+}
 </script>
 
-<style>
-.bg {
-  background-image: url('@/static/images/bg.jpg');
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-  height: 100vh;
-}
-</style>
