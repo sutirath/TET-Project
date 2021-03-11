@@ -98,7 +98,7 @@ export default {
   background-color: #c9b194;
 }
 .detail-sec2 {
-  font-size: 12px;
+  font-size: 15px;
   margin-right: 100px;
   text-align: left;
 }
