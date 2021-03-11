@@ -8,8 +8,13 @@
   "navbar-footer": "close",
   "section2": {
     "welcome": "welcome",
-    "title": "Takeco Engineering",
+    "title1": "Takeco Engineering",
     "title2": "History",
     "detail": "Since 1993, It has been more than 2 decades that Takeco Engineering (Thailand)Co.,Ltd was established and operated the business in Steel Industry. We serve ourcustomers by heart not only in supplying the best tools, equipment, and machinesinstallation for producing steel productions, but also conducting a consultant service.In addition, all of our engineers are professional, sophisticated and work systematical-ly. Resulted with well-understood about all customer's needs. Thereby, all of thesebring us a confidential trust from customers all along."
+  },
+  "section3": {
+    "title1": "we always looking for",
+    "title2": "The Effective Technology",
+    "detail": "Our business was developing every year. We widen our service boundary by offeringmore variety of products to the customers. We also import an innovative technologyfrom worldwide including Asia, Europe, and America in order to deal with growth in bothSteel and other industries."
   }
 }
