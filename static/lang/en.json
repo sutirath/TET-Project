@@ -7,5 +7,7 @@
     "password": "Password"
   },
   "quote": "First, solve the problem. Then, write the code.",
-  "Contactus": "CALL US NOW "
+  "Contactus": "CALL US NOW ",
+  "navbar-footer":"close"
+
 }
