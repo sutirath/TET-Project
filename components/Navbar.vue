@@ -16,8 +16,8 @@
     /></a>
     <div class="collapse navbar-collapse" id="navbarToggler">
       <dir class="navbar-nav mr-auto name-logo">
-        <h4>TAKECO ENGINEERING</h4>
-        <p>THAILAND CO.,LTD.</p>
+        <h4>{{ $t('navbar.title1') }}</h4>
+        <p>{{ $t('navbar.title2') }}</p>
       </dir>
 
       <dir class="ml-auto">
@@ -107,6 +107,11 @@ export default {
 </script>
 
 <style>
+.name-logo h4 {
+  font-weight: bold;
+  font-size: 19px;
+}
+
 .navbar {
   transition: 1s ease all;
 }
@@ -192,7 +197,7 @@ export default {
   line-height: 3px;
 }
 .name-logo p {
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .navbar-brand {
