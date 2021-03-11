@@ -107,6 +107,11 @@ export default {
 </script>
 
 <style>
+.name-logo h4{
+   font-weight: bold;
+   font-size: 19px;
+}
+
 .navbar {
   transition: 1s ease all;
 }
@@ -192,7 +197,7 @@ export default {
   line-height: 3px;
 }
 .name-logo p {
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .navbar-brand {
