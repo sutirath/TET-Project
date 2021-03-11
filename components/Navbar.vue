@@ -15,7 +15,7 @@
       ><img src="@/static/icon.png" height="65" alt="" srcset=""
     /></a>
     <div class="collapse navbar-collapse" id="navbarToggler">
-      <dir class="navbar-nav mr-auto  name-logo">
+      <dir class="navbar-nav mr-auto name-logo">
         <h4>TAKECO ENGINEERING</h4>
         <p>THAILAND CO.,LTD.</p>
       </dir>
@@ -49,8 +49,10 @@
         <b-sidebar id="sidebar-right" right backdrop shadow>
           <template #footer="{ hide }">
             <div class="d-flex bg-dark text-light align-items-center px-3 py-2">
-              <strong class="mr-auto">Footer</strong>
-              <b-button size="sm" @click="hide">Close</b-button>
+              <strong class="mr-auto">TAKECO ENGINEERING</strong>
+              <b-button size="sm" @click="hide"
+                >{{ $t('navbar-footer') }}
+              </b-button>
             </div>
           </template>
           <div class="px-3 py-2">
@@ -105,8 +107,11 @@ export default {
 </script>
 
 <style>
-.navbae-scrolled {
+.navbar {
   transition: 1s ease all;
+}
+.navbae-scrolled {
+  transition: 2s ease all;
   transition-delay: 10ms;
   background: rgb(87, 87, 87);
   animation: fadeInDown 0.4s;
@@ -190,7 +195,7 @@ export default {
   font-size: 22px;
 }
 
-.navbar-brand{
+.navbar-brand {
   margin-left: 100px;
 }
 </style>
