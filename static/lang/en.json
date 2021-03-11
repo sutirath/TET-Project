@@ -1,13 +1,15 @@
 {
-
-  "welcome": "Welcome",
-  "link": ["Welcome", "Inspiration"],
-  "loginform": {
-    "user": "User Name",
-    "password": "Password"
+  "navbar": {
+    "title1": "TAKECO ENGINEERING",
+    "title2": "THAILAND CO.,LTD."
   },
-  "quote": "First, solve the problem. Then, write the code.",
+  "welcome": "Welcome",
   "Contactus": "CALL US NOW ",
-  "navbar-footer":"close"
-
+  "navbar-footer": "close",
+  "section2": {
+    "welcome": "welcome",
+    "title": "Takeco Engineering",
+    "title2": "History",
+    "detail": "Since 1993, It has been more than 2 decades that Takeco Engineering (Thailand)Co.,Ltd was established and operated the business in Steel Industry. We serve ourcustomers by heart not only in supplying the best tools, equipment, and machinesinstallation for producing steel productions, but also conducting a consultant service.In addition, all of our engineers are professional, sophisticated and work systematical-ly. Resulted with well-understood about all customer's needs. Thereby, all of thesebring us a confidential trust from customers all along."
+  }
 }

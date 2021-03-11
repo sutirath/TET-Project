@@ -1,25 +1,19 @@
 <template>
   <div class="sections2">
     <div class="content-left">
-      <p class="title-sec2">welcome</p>
+      <p class="title-sec2">{{ $t('section2.welcome') }}</p>
       <div>
-        <h1>Takeco Engineering</h1>
+        <h1>{{ $t('section2.title1') }}</h1>
         <br />
-        <h1>History</h1>
+        <h1>{{ $t('section2.title2') }}</h1>
       </div>
       <hr />
       <p class="detail-sec2">
-        Since 1993, It has been more than 2 decades that Takeco Engineering
-        (Thailand)Co.,Ltd was established and operated the business in Steel
-        Industry. We serve ourcustomers by heart not only in supplying the best
-        tools, equipment, and machinesinstallation for producing steel
-        productions, but also conducting a consultant service.In addition, all
-        of our engineers are professional, sophisticated and work
-        systematical-ly. Resulted with well-understood about all customer's
-        needs. Thereby, all of thesebring us a confidential trust from customers
-        all along.
+        {{ $t('section2.detail') }}
       </p>
-      <button type="button" class="btn btn-outline-secondary">Welcome</button>
+      <button type="button" class="btn btn-outline-secondary">
+        {{ $t('section2.welcome') }}
+      </button>
     </div>
 
     <div class="content-rigth">
