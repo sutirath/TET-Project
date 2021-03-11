@@ -2,7 +2,7 @@
   <div>
     <Section1 />
     <div>
-      <h1 class="animate__animated animate__bounce">An animated element</h1>
+      <h1 class="animate__animated animate__bounce">section2</h1>
       <br /><br /><br /><br /><br /><br /><br /><br /><br />
       <br /><br /><br /><br /><br /><br /><br /><br /><br />
       <br /><br /><br /><br /><br /><br /><br /><br /><br />
